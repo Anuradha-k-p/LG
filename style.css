@@ -1,0 +1,77 @@
+body{
+    background-image:url(https://tse4.mm.bing.net/th?id=OIP.bVWnLiB3iIhYjfvvwy2UPgHaEo&pid=Api&P=0&h=220https://tse4.mm.bing.net/th?id=OIP.bVWnLiB3iIhYjfvvwy2UPgHaEo&pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 450vh;
+
+
+}
+
+.first{
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.photo{
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+.para{
+    color:white;
+    background-color: rgb(236, 70, 103);
+    font-size: 24px;
+    border-radius: 15px;
+    border-radius: 20px 50px 20px 50px;
+    box-shadow: 2px 2px 5px gray;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: color 5s linear  1 ;
+}
+@keyframes color {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: rgb(236, 70, 103);
+       
+    }
+    
+}
+
+/* .down{
+    font-size: 20px;
+    
+} */
+
+
+.down {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+   color: aliceblue;
+    position: absolute;
+    /* bottom: 0; */
+    animation: moveUp 2s ease forwards;
+  }
+
+  @keyframes moveUp {
+    from {
+      transform: translateY(20%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+
